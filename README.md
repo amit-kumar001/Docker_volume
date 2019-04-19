@@ -8,14 +8,14 @@ In docker whenever, you create a container they has to be someplace where the da
 <strong>$ docker volume</strong></br>
 <strong>$docker volume --help</strong></br>
 Commands:</br>
-~~~
-  create      Create a volume
+```
+ create      Create a volume
   inspect     Display detailed information on one or more volumes
   ls          List volumes
   prune       Remove all unused local volumes
   rm          Remove one or more volumes
-  
-~~~ 
+
+```
   
 ![1](https://user-images.githubusercontent.com/47202519/56355616-60797d80-61f4-11e9-9f52-c10eadb6e276.png)
 
