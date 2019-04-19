@@ -144,7 +144,10 @@ Create a folder jenkins, all the data of jenkins_home will get stored here.</li>
 ![6 13](https://user-images.githubusercontent.com/47202519/56360320-ed770380-6201-11e9-9e11-4359b35ba24d.png)
 
 <li>Some new file and folder copied in jenkins folder.</br>
-Open <strong>localhost:9191</strong></br>
+Open <strong>localhost:9191</strong></br>  
+
+![9191](https://user-images.githubusercontent.com/47202519/56405147-89e3e900-6288-11e9-8f6f-b3e5d987a2ed.png)
+
 Open another terminal and check running containers</br>
 <strong>$ docker ps</strong></li>    
 
@@ -171,6 +174,9 @@ Open another terminal and check running containers</br>
 
 ![6 19](https://user-images.githubusercontent.com/47202519/56360633-e43a6680-6202-11e9-87f3-f151fb57591c.png)</br>
 
-Our physical jenkins_home is created in our system.
+Our physical jenkins_home is created in our system. </br>
+
+![phy](https://user-images.githubusercontent.com/47202519/56405256-260df000-6289-11e9-9789-de944193a334.png)
+
 </ol>
 </ol>
