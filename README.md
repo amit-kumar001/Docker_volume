@@ -18,9 +18,9 @@ docker volume create name_of_volume</br>
 ![c_vol](https://user-images.githubusercontent.com/47202519/56355268-8a7e7000-61f3-11e9-8824-ad69893c4bdb.png)</br> 
 
 <li>To check the list of volume</br>
-<strong>$ docker volume ls</strong></li></br>   
+<strong>$ docker volume ls</strong></li></br>
 
-![2 2](https://user-images.githubusercontent.com/47202519/56404900-0675c800-6287-11e9-8e4c-f51fcf5afe0d.png)</br> 
+![2 2](https://user-images.githubusercontent.com/47202519/56404900-0675c800-6287-11e9-8e4c-f51fcf5afe0d.png)
 
 <li>To get the details about the volume</br>
 <strong>$ docker volume inspect myvol</strong></br> </br> 
