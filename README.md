@@ -48,7 +48,7 @@ It will remove all local volumes which are not used by any one of the containers
 ### How it works
 <ol>
   
-<li>pull the jenkins image</br>
+<li>Pull the jenkins image</br>
 <strong>$ pull the jenkins image</strong></li>  
 
 <li> To start container</br>
@@ -78,13 +78,13 @@ Provide the admin password that we copied</li>
 
 ![6 4](https://user-images.githubusercontent.com/47202519/56358492-63786c00-61fc-11e9-85cc-b8affe474b28.png)
 
-Click <strong>'none'</strong> from the menu bar to all, to save time and then install it.</br>
-Skip the process by click on <strong>continue as admin</strong></br>
-click on <strong>'start using jenkins'</strong></li>  
+-> Click <strong>'none'</strong> from the menu bar to all, to save time and then install it.</br>
+-> Skip the process by click on <strong>continue as admin</strong></br>
+-> click on <strong>'start using jenkins'</strong></li>  
 
 ![6 5](https://user-images.githubusercontent.com/47202519/56358511-6f642e00-61fc-11e9-84d5-e53474832c07.png)
 
-<li>Main idea here is to show how can we share the volumes</li> 
+<li>Main idea here is to show how can we share the volumes.</li> 
 <li>In jenkins <strong>create a new job</strong></li>  
 
 ![6 6](https://user-images.githubusercontent.com/47202519/56358559-928edd80-61fc-11e9-8c76-cee9bf55b409.png)
@@ -114,13 +114,13 @@ It will start another instance of Jenkins or a different docker container with J
 
 <li>Now we need to check the volume is shared between these two Jenkins or not</br> 
 Jenkins is fully up an running </br>
-Open <strong>localhost:9090</strong></li>  
+Open <strong>localhost:9090</strong></br>  
 
 ![6 11](https://user-images.githubusercontent.com/47202519/56359450-3c6f6980-61ff-11e9-9d0d-00a9c521a66b.png)
 
-<li>It has not given us the initial plug-in  screen it is just giving us login screen 
-<strong>username=admin</strong>
-same password that we had for last jenkins</li>
+It has not given us the initial plug-in  screen it is just giving us login screen </br> 
+<strong>username=admin</strong></br> 
+same password that we had for last jenkins</li></br> 
 <li>If this allows us to log in means the data is being shared with these two Jenkins containers.It allowed us to login and you can see this has the testjob1 is here. 
 So data is being shared between both Jenkins container which running on <strong>8080 port</strong> and this container which is running on <strong>port 9090</strong>.
 So we are able to share the volume between these two containers.
