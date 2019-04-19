@@ -13,19 +13,19 @@ In docker whenever, you create a container they has to be someplace where the da
 <ol>
 <li>Create a volume</br>
 docker volume create name_of_volume</br>
-<strong>$ docker volume create myvol</strong></li> 
+<strong>$ docker volume create myvol</strong></li></br> 
 
-![c_vol](https://user-images.githubusercontent.com/47202519/56355268-8a7e7000-61f3-11e9-8824-ad69893c4bdb.png)
+![c_vol](https://user-images.githubusercontent.com/47202519/56355268-8a7e7000-61f3-11e9-8824-ad69893c4bdb.png)</br> 
 
 <li>To check the list of volume</br>
-<strong>$ docker volume ls</strong></li>  
+<strong>$ docker volume ls</strong></li></br>   
 
-![ls](https://user-images.githubusercontent.com/47202519/56355705-9e76a180-61f4-11e9-95eb-a44338d6e615.png)
+![2 2](https://user-images.githubusercontent.com/47202519/56404900-0675c800-6287-11e9-8e4c-f51fcf5afe0d.png)</br> 
 
 <li>To get the details about the volume</br>
-<strong>$ docker volume inspect myvol</strong></br> 
+<strong>$ docker volume inspect myvol</strong></br> </br> 
 
-![2](https://user-images.githubusercontent.com/47202519/56355810-e4cc0080-61f4-11e9-8656-6897f971295f.png)
+![2](https://user-images.githubusercontent.com/47202519/56355810-e4cc0080-61f4-11e9-8656-6897f971295f.png)</br> 
 
 <strong>Mountpoint</strong>: is the location of your volume and it can not be edited by the functions locally, that is one of the advantages and this volume is safe now.</li>
 <li>To remove the volume</br>
