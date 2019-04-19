@@ -5,14 +5,14 @@
 In docker whenever, you create a container they has to be someplace where the data for the container will be stored. Now in case you do not provide any explicit location, for that data to be stored it gets stored within the container, and when you delete the container or remove the container the data is also lost. However, when you work on enterprise projects, we won't that data is not lost, We can actually remove a container but still persist the data. in this case, It required to create more containers with the old data or to share the data between container it should be possible.</li>
 
 <li>Details about docker volume</li>  
-<li><strong>$ docker volume</strong></br>
+<strong>$ docker volume</strong></br>
 <strong>$docker volume --help</strong></br>
 Commands:</br>
   create      Create a volume</br>
   inspect     Display detailed information on one or more volumes</br>
   ls          List volumes</br>
   prune       Remove all unused local volumes</br>
-  rm          Remove one or more volumes</li>    
+  rm          Remove one or more volumes</br>   
   
 ![1](https://user-images.githubusercontent.com/47202519/56355616-60797d80-61f4-11e9-9f52-c10eadb6e276.png)
 
