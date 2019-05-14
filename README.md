@@ -53,7 +53,7 @@ It will remove all local volumes which are not used by any one of the containers
 <ol>
   
 <li>Pull the jenkins image</br>
-<strong>$ pull the jenkins image</strong></li>  
+<strong>$ docker pull jenkins</strong></li>  
 
 <li> To start container</br>
 <strong>--name =name_of_container</strong></br>
